@@ -1,0 +1,8 @@
+Problem: Bread machine: A bread machine has several components, among which: the water sensor, the flour sensor and the entire
+machine controller. All those three colaborate in order to make the machine work properly.
+Actors: Water Sensor, Flour Sensor, Machine Controller
+Signals:
+	1. The Water Sensor detects water and lets the machine's controller know that.
+	2. The Flour Sensor detects flour(and other powder ingredients) and lets the machine's controller know that.
+	3. When the machine's controller knows that it has both flour and water, it can start making the bread. After the bread
+	is done, the values of the water and flour sensors are reset. 
